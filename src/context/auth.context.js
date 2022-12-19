@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-const API_URL = "http://ih-final-project-ryan-essel.onrender.com";
+const API_URL = "https://ih-final-project-ryan-essel.onrender.com";
 
 const AuthContext = React.createContext()
 
