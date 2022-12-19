@@ -6,7 +6,7 @@ import AddQuote from '../components/AddQuote';
 import AddPart from '../components/AddPart';
 
 
-const API_URL = "http://localhost:5005"
+const API_URL = "https://ih-final-project-ryan-essel.onrender.com"
 
  function QuotesPage() {
     const [quotes, setQoutes] = useState("")

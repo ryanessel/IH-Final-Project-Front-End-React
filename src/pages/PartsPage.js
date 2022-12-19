@@ -6,7 +6,7 @@ import { AuthContext } from '../context/auth.context';
 import { useNavigate, Link } from 'react-router-dom';
 
 
-const API_URL = `http://localhost:5005`
+const API_URL = `https://ih-final-project-ryan-essel.onrender.com`
 
 
 

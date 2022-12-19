@@ -2,7 +2,7 @@ import axios from 'axios';
 import React from 'react'
 import { useEffect, useState } from 'react';
 
-const API_URL = `http://localhost:5005`
+const API_URL = `https://ih-final-project-ryan-essel.onrender.com`
 
  function AddPart(props) {
     const [cost, setCost ] = useState("")

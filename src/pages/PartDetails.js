@@ -5,7 +5,7 @@ import bigDecimal from 'js-big-decimal';
 // want this to be editable on this page.
 
 
-const API_URL = `http://localhost:5005`
+const API_URL = `https://ih-final-project-ryan-essel.onrender.com`
 
  function PartDetails(props) {
   const [ targetPart, setTargetPart ] = useState(null)

@@ -8,7 +8,7 @@ import EditQuoteDataIssuedBox from "./editPageComponents/EditQuoteDataIssuedBox"
 import EditQuotePartsList from "./editPageComponents/EditQuotePartsList";
 
 
-const API_URL = "http://localhost:5005"
+const API_URL = "https://ih-final-project-ryan-essel.onrender.com"
 
 function QuoteEditForm({updateQuoteRecord, setShowState, showState}) {
     const { quoteId } = useParams()
