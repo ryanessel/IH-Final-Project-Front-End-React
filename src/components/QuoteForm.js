@@ -28,12 +28,16 @@ const API_URL = `https://ih-final-project-ryan-essel.onrender.com`
     qty: "",
     sell:"",
     rowTotal: "",
+    leadtime:"",
     profit: "",
    
  
 
 
 } ])
+
+
+
 
 const [totalSell, setTotalSell] = useState({
 

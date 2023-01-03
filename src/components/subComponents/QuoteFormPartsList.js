@@ -46,6 +46,9 @@ sell:"",
 rowTotal: "",
 profit: "",
 
+// New
+leadtime:""
+
 
 })
 
@@ -112,6 +115,7 @@ const total = 0
       <th>QTY</th>
       <th>SELL</th>  
       <th>ROW TOTAL</th>
+      <th>LeadTime</th>
      
     </tr>
   </thead>

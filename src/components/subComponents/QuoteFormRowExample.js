@@ -22,6 +22,8 @@ const API_URL = `https://ih-final-project-ryan-essel.onrender.com`
   partDescription,
   material,
 
+  leadtime,
+
   //calculated
   profit,
   } = part
@@ -106,11 +108,23 @@ const API_URL = `https://ih-final-project-ryan-essel.onrender.com`
         onChange={(e) => updatePart(e.target, index)}
         disabled
         >
+
+
+
+
         
     {/* {Math.round(part.cost / (1 - (part.margin / 100))*100) / 100 } */}
       {part.sell= Math.round(part.cost / (1 - (part.margin / 100))*100) / 100}
       {console.log("PART SELL", part.sell)}
       </td>
+
+      <td>    <input className="quoteFormQty"
+        type="text"
+        name="leadtime"
+        value={leadtime}
+        onChange={(e) => updatePart(e.target, index)}
+    />
+    </td>
 
 
 {/* don't need  total in db obj. just calculate if  */}
