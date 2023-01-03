@@ -118,13 +118,7 @@ const API_URL = `https://ih-final-project-ryan-essel.onrender.com`
       {console.log("PART SELL", part.sell)}
       </td>
 
-      <td>    <input className="quoteFormQty"
-        type="text"
-        name="leadtime"
-        value={leadtime}
-        onChange={(e) => updatePart(e.target, index)}
-    />
-    </td>
+
 
 
 {/* don't need  total in db obj. just calculate if  */}
@@ -133,6 +127,13 @@ const API_URL = `https://ih-final-project-ryan-essel.onrender.com`
 
       </td>
      
+      <td>    <input className="quoteFormQty"
+        type="text"
+        name="leadtime"
+        value={leadtime}
+        onChange={(e) => updatePart(e.target, index)}
+    />
+    </td>
 
     {/* NPM PACKAGE THAT FIXES floating point numbers maths issue. */}
      {/* <div>Big Decimal Test     {bigDecimal.multiply("9.72", "87")}</div> */}
